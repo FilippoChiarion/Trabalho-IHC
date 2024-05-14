@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding-bottom: 100px;
+    background-color: black;
+    margin: 0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+section.header{
+    align-items: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.login{
+    margin-right: 23px;
+   
+    font-size: 1.2rem;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+background-color: white;
+}
+.oi{
+    margin-top: 17px;
+}
+
+.txt1{
+    margin-left: 5px;
+   
+    margin-bottom: -10px;
+   align-items: center;
+}
+
+.txt{
+    display: block;
+    margin-top: -40px;
+    margin-left: 150px;
+}
+
+.fotologin{
+    margin-left: 104px;
+  margin-top: -25px;
+    width: 50px;
+    height: 50px;
+}
+
+.search-box{
+   margin-left: 27vw;
+    width: 40vw;
+    position: absolute;
+    background-color: white;
+    height: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.search-txt{
+    font-size: 1.1rem;
+    padding-left: 15px;
+    border: none;
+    background-color: none;
+    outline: none;
+}
+
+
+.logo>img{
+    width: 210px;
+    height: 100px;
+}
+
+/* banner */
+
+section.boxes{
+    
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+}
+hr{
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.box1{
+    margin-right: -30px;
+}
+
+.box5{
+  padding-right: 30px;
+  margin-left: -30px;
+}
+
+div.wrapper{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.carros>img{
+    width: 20vw;
+    height: 50vh;
+   border-radius: 20px;
+}
+
+div.motos>img{
+    width: 20vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+div.diversos>img{
+    width: 20vw;
+    height: 50vh;
+   border-radius: 20px; 
+}
+
+div.wrapper-txt{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.5rem;
+}
+div.wrapper-txt>p{
+    width: 20vw;
+}
+
+.wrapper2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.oferta1>img{
+    border-radius: 20px;
+    width: 35vw;
+}
+.oferta2>img{
+    border-radius: 20px;
+    width: 35vw;
+}
