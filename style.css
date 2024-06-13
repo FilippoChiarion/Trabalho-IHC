@@ -5,8 +5,20 @@
     padding: 0px;
 }
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poetsen+One&display=swap');
+
+
+.michroma-regular {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 body{
-    padding-bottom: 100px;
+    overflow-x: hidden;
     background-color: black;
     margin: 0px;
 }
@@ -83,31 +95,12 @@ background-color: white;
     height: 100px;
 }
 
-/* banner */
-
-section.boxes{
-    
-    border-radius: 20px;
-    padding: 15px;
-    display: flex;
-    background-color: white;
-    justify-content: space-around;
-    width: 80vw;
-    margin: auto;
-    margin-top: 30px;
-}
-hr{
-    height: 20px;
-    border: 1px solid rgb(0, 0, 0);
-}
-.box1{
-    margin-right: -30px;
+#bannerimg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100vw;
 }
 
-.box5{
-  padding-right: 30px;
-  margin-left: -30px;
-}
 
 div.wrapper{
     margin-top: 40px;
@@ -139,6 +132,7 @@ div.wrapper-txt{
     justify-content: space-evenly;
     text-align: center;
     font-size: 1.5rem;
+    font-family: 'Michroma';
 }
 div.wrapper-txt>p{
     width: 20vw;
@@ -156,4 +150,50 @@ div.wrapper-txt>p{
 .oferta2>img{
     border-radius: 20px;
     width: 35vw;
+}
+
+aside{
+    margin-top: 133px;
+    margin-bottom: 133px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+aside div{
+    text-shadow: 1px 1px 1px black;
+    font-size: 23px;
+    align-content: center;
+    text-align: center;
+    width: 300px;
+    height: 292px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-family: 'Michroma';
+}
+
+footer{
+    
+    margin-bottom: 20px;
+    color: white;
+}
+
+footer p{
+    line-height: 50px;
+}
+
+div.footer{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.footer div{
+    margin: 70px;
+}
+
+div.footer2{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
 }
